@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+      delaultZone: http://localhost:8761/eureka
+    fetch-registry: false
+    register-with-eureka: false
+spring:
+  application:
+    name: eurka
+server:
+  port: 8761
